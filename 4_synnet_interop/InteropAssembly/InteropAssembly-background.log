@@ -1,0 +1,9 @@
+DBLNET> "C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(7): ;;;<param name="
+%DBL-W-XMLDOC, GetAddressForUpdate has a parameter tag for AddressID but there is no parameter by that name
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(7): ;;;<param name="
+%DBL-W-XMLDOC, UpdateContact has a parameter tag for GRFA but there is no parameter by that name
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(7): ;;;<param name="
+%DBL-W-XMLDOC, UpdateCustomer has a parameter tag for GRFA but there is no parameter by that name
+Warnings:       3
+DBLNET> 
+

@@ -1,0 +1,94 @@
+DblNet2XML> "C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\DataDefinitions.dbl"(2):.include "ADDRESS_TYPE"  repository, enum
+%DBL-E-DDOPN2, Cannot open repository's main file:  RPSMFIL:
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\DataDefinitions.dbl"(3):.include "METHOD_STATUS" repository, enum
+%DBL-E-DDOPN2, Cannot open repository's main file:  RPSMFIL:
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\DataDefinitions.dbl"(5):.include "ADDRESS"  repository, structure="strAddress"  ,end
+%DBL-E-DDOPN2, Cannot open repository's main file:  RPSMFIL:
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\DataDefinitions.dbl"(6):.include "CUSTOMER" repository, structure="strCustomer" ,end
+%DBL-E-DDOPN2, Cannot open repository's main file:  RPSMFIL:
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\DataDefinitions.dbl"(7):.include "CONTACT"  repository, structure="strContact"  ,end
+%DBL-E-DDOPN2, Cannot open repository's main file:  RPSMFIL:
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(12):function GetAddressForUpdate, METHOD_STATUS
+%DBL-E-NVRTF, Cannot resolve return type for function GetAddressForUpdate
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(21):	required out a_address, strAddress
+%DBL-E-NVTP, Cannot resolve type for parameter a_address
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(33):		sts		,METHOD_STATUS
+%DBL-E-NVTF, Cannot resolve type for field sts
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(38):        init local_data, a_address
+%DBL-E-NOTALLOWED, parameters of this type not allowed in INIT targets
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(48):		read(ch,a_address,keyval(ch,a_address,1),KEYNUM:1,GETRFA:^m(a_grfa))
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAddressForUpdate.dbl"(77):	freturn sts
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAllCustomers.dbl"(16):		customer	,strCustomer
+%DBL-E-NVTF, Cannot resolve type for field customer
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetAllCustomers.dbl"(23):	foreach customer in new Select(new From(ch,customer),OrderBy.AscendingKey(1))
+%DBL-E-NOCONS, Cannot find matching constructor in class Synergex.SynergyDE.Select.From
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(12):function GetContactForUpdate, METHOD_STATUS
+%DBL-E-NVRTF, Cannot resolve return type for function GetContactForUpdate
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(21):	required out a_contact, strContact
+%DBL-E-NVTP, Cannot resolve type for parameter a_contact
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(33):		sts		,METHOD_STATUS
+%DBL-E-NVTF, Cannot resolve type for field sts
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(38):        init local_data, a_contact
+%DBL-E-NOTALLOWED, parameters of this type not allowed in INIT targets
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(48):		read(ch,a_contact,keyval(ch,a_contact,0),KEYNUM:0,GETRFA:^m(a_grfa))
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetContactForUpdate.dbl"(77):	freturn sts
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerAddresses.dbl"(21):		address		,strAddress
+%DBL-E-NVTF, Cannot resolve type for field address
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerAddresses.dbl"(28):	foreach address in new Select(new From(ch,address),(Where)address.customer_id==customer)
+%DBL-E-NOCONS, Cannot find matching constructor in class Synergex.SynergyDE.Select.From
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerContacts.dbl"(21):		contact	,strContact
+%DBL-E-NVTF, Cannot resolve type for field contact
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerContacts.dbl"(28):	foreach contact in new Select(new From(ch,contact),(Where)contact.customer_id==customer)
+%DBL-E-NOCONS, Cannot find matching constructor in class Synergex.SynergyDE.Select.From
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(11):function GetCustomerForUpdate, METHOD_STATUS
+%DBL-E-NVRTF, Cannot resolve return type for function GetCustomerForUpdate
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(17):	required out a_customer, strCustomer
+%DBL-E-NVTP, Cannot resolve type for parameter a_customer
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(29):		sts		,METHOD_STATUS
+%DBL-E-NVTF, Cannot resolve type for field sts
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(34):        init local_data, a_customer
+%DBL-E-NOTALLOWED, parameters of this type not allowed in INIT targets
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(43):		read(ch,a_customer,keyval(ch,a_customer,0),KEYNUM:0,GETRFA:^m(a_grfa))
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\GetCustomerForUpdate.dbl"(72):	freturn sts
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(10):function UpdateContact, METHOD_STATUS
+%DBL-E-NVRTF, Cannot resolve return type for function UpdateContact
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(13):	required inout a_contact, strContact
+%DBL-E-NVTP, Cannot resolve type for parameter a_contact
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(25):		sts			,METHOD_STATUS
+%DBL-E-NVTF, Cannot resolve type for field sts
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(26):		tmpContact	,strContact
+%DBL-E-NVTF, Cannot resolve type for field tmpContact
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(39):		read(ch,tmpContact,,RFA:^m(a_grfa),GETRFA:tmpGRFA)
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(42):		write(ch,a_contact,,GETRFA:^m(a_grfa))
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(52):		a_contact = tmpContact
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateContact.dbl"(70):	freturn sts
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(10):function UpdateCustomer, METHOD_STATUS
+%DBL-E-NVRTF, Cannot resolve return type for function UpdateCustomer
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(13):	required inout a_customer, strCustomer
+%DBL-E-NVTP, Cannot resolve type for parameter a_customer
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(25):		sts			,METHOD_STATUS
+%DBL-E-NVTF, Cannot resolve type for field sts
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(26):		tmpCustomer	,strCustomer
+%DBL-E-NVTF, Cannot resolve type for field tmpCustomer
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(39):		read(ch,tmpCustomer,,RFA:^m(a_grfa),GETRFA:tmpGRFA)
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(42):		write(ch,a_customer,,GETRFA:^m(a_grfa))
+%DBL-E-ALPHAXP, Alpha expression expected
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(52):		a_customer = tmpCustomer
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+"C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\Methods\UpdateCustomer.dbl"(70):	freturn sts
+%DBL-E-TYPMISMCH, Type mismatch between unresolved and unresolved
+DblNet2XML> 
+
+
+XML file C:\CodeExchange\SynNet\ClientServerExamples\4_synnet_interop\InteropAssembly\InteropAssembly.xml not created!
