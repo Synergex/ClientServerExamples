@@ -1,0 +1,12 @@
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\bin\WebApp_CS.dll
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\bin\WebApp_CS.pdb
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\bin\SynergyComponentWcf.dll
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\obj\Debug\ResolveAssemblyReference.cache
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\obj\Debug\WebApp_CS.dll
+C:\SPC2011_STEVE\10_SERVER_APPS\2_xfpl_xfnl_web_service\WebApp_cs\obj\Debug\WebApp_CS.pdb
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\bin\WebApp_CS.dll
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\bin\WebApp_CS.pdb
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\bin\SynergyComponentWcf.dll
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\obj\Debug\ResolveAssemblyReference.cache
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\obj\Debug\WebApp_CS.dll
+C:\CodeExchange\SynNet\ClientServerExamples\2_xfpl_xfnl_web_service\WebApp_CS\obj\Debug\WebApp_CS.pdb
