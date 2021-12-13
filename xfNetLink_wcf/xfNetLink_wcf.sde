@@ -1,0 +1,24 @@
+[GLOBAL]
+syn_version=6
+Synergy=NET
+
+[COMPONENT INFORMATION]
+Net_Env_Batch=%VS100COMNTOOLS%vsvars32.bat
+Component_Name=SynergyComponentWcf
+Component_Directory=C:\CodeExchange\SynNet\ClientServerExamples\xfNetLink_wcf
+Generate_API_Documentation=0
+Pooling=0
+Namespace=spc2011
+Strong_Name_Key_File=
+Delay_Sign_Assembly=0
+Generate_Structure_Members_As=Properties
+Generate_Output_Params_As=Ref
+Use_Alternate_Field_Names=0
+Repository_Main_File=C:\CodeExchange\SynNet\ClientServerExamples\xfServerPlus\rps\rpsmain.ism
+Repository_Text_File=C:\CodeExchange\SynNet\ClientServerExamples\xfServerPlus\rps\rpstext.ism
+SMC_Directory=C:\CodeExchange\SynNet\ClientServerExamples\xfServerPlus\xfpl
+Generate_WCF_Contracts=1
+
+[SMC Interfaces]
+Interface_0=SynergyServer::1
+

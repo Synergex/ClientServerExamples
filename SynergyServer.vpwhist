@@ -1,0 +1,69 @@
+[ActiveConfig]
+xfNetLink_wcf\xfNetLink_wcf.vpj=Release
+[Global]
+CurrentProject=xfServerPlus\xfServerPlus.vpj
+[ProjectDates]
+xfNetLink\xfNetLink.vpj=20110518222811429
+xfServerPlus\xfServerPlus.vpj=20110518222651351
+xfNetLink_wcf\xfNetLink_wcf.vpj=20110518232453805
+[TreeExpansion2]
++ xfNetLink\xfNetLink.vpj
+  - Source Files
+    - xfNetLink\SynergyComponent\Address.cs
+    - xfNetLink\SynergyComponent\Address_type.cs
+    - xfNetLink\SynergyComponent\AssemblyInfo.cs
+    - xfNetLink\SynergyComponent\Contact.cs
+    - xfNetLink\SynergyComponent\Customer.cs
+    - xfNetLink\SynergyComponent\ISynergyServer.cs
+    - xfNetLink\SynergyComponent\Method_status.cs
+    - xfNetLink\SynergyComponent\SynergyServer.cs
+  + Batch Files
+  + Other Files
++ xfNetLink_wcf\xfNetLink_wcf.vpj
+  - Source Files
+    - xfNetLink_wcf\SynergyComponentWcf\Address.cs
+    - xfNetLink_wcf\SynergyComponentWcf\Address_type.cs
+    - xfNetLink_wcf\SynergyComponentWcf\AssemblyInfo.cs
+    - xfNetLink_wcf\SynergyComponentWcf\Contact.cs
+    - xfNetLink_wcf\SynergyComponentWcf\Customer.cs
+    - xfNetLink_wcf\SynergyComponentWcf\ISynergyServer.cs
+    - xfNetLink_wcf\SynergyComponentWcf\Method_status.cs
+    - xfNetLink_wcf\SynergyComponentWcf\SynergyServer.cs
+  + Batch Files
+  + Other Files
++ xfServerPlus\xfServerPlus.vpj
+  + Source Files
+    - xfServerPlus\src\DataDefinitions.dbl
+    - xfServerPlus\src\GetAddressForUpdate.dbl
+    - xfServerPlus\src\GetAllCustomers.dbl
+    - xfServerPlus\src\GetContactForUpdate.dbl
+    - xfServerPlus\src\GetCustomerAddresses.dbl
+    - xfServerPlus\src\GetCustomerContacts.dbl
+    - xfServerPlus\src\GetCustomerForUpdate.dbl
+    - xfServerPlus\src\UpdateContact.dbl
+    - xfServerPlus\src\UpdateCustomer.dbl
+  + Header Files
+  - Other Files
+    - xfServerPlus\xfpl\DefaultSMC.xml
+    - xfServerPlus\xfpl\DefaultXfpl.ini
+    - xfServerPlus\xfpl\LoadDefaultSMC.bat
+    - xfServerPlus\xfpl\LoadSynergyServerSMC.bat
+    - xfServerPlus\rps\spc2011.schema
+    - xfServerPlus\xfpl\SynergyServerSMC.xml
+    - xfServerPlus\xfpl\xfpl.ini
+scroll:0
+[State]
+SCREEN: 1680 1050 125 125 1260 737 0 0 M 0 0 0 0 1398 496 0
+CWD: xfServerPlus
+FILEHIST: 9
+xfpl\src\GetAllCustomers.dbl
+xfpl\xfnl\SynergyComponent\SynergyServer.cs
+xfpl\src\GetAddressForUpdate.dbl
+xfpl\xfpl\xfpl.ini
+xfNetLink\SynergyComponent\SynergyServer.cs
+xfNetLink_wcf\SynergyComponentWcf\Customer.cs
+xfNetLink_wcf\SynergyComponentWcf\SynergyServer.cs
+xfServerPlus\rps\spc2011.schema
+xfServerPlus\xfpl\xfpl.ini
+PROJECT_CACHE: 0
+TBCLASS: 0 0
