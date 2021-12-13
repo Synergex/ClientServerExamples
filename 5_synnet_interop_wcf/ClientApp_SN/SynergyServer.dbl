@@ -1,0 +1,1188 @@
+﻿import System.Runtime.Serialization
+
+namespace spc2011
+
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.Runtime.Serialization"), ((string)"4.0.0.0"))}
+{System.Runtime.Serialization.DataContractAttribute(Name = ((string)"Method_status"), Namespace = ((string)"http://schemas.datacontract.org/2004/07/spc2011"))}
+public enum Method_status
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Success
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Info_error
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Fatal_error
+endenum
+
+{System.Diagnostics.DebuggerStepThroughAttribute()}
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.Runtime.Serialization"), ((string)"4.0.0.0"))}
+{System.Runtime.Serialization.DataContractAttribute(Name = ((string)"Address"), Namespace = ((string)"http://schemas.datacontract.org/2004/07/spc2011"))}
+public partial class Address extends object implements System.Runtime.Serialization.IExtensibleDataObject
+
+private extensionDataField, @System.Runtime.Serialization.ExtensionDataObject
+
+public property ExtensionData, @System.Runtime.Serialization.ExtensionDataObject
+method get
+proc
+begin
+	mreturn this.extensionDataField
+end
+endmethod
+method set
+proc
+begin
+	this.extensionDataField = value
+end
+endmethod
+endproperty
+
+private Active_dateField, System.DateTime
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Active_date, System.DateTime
+method get
+proc
+begin
+mreturn this.Active_dateField
+end
+endmethod
+method set
+proc
+begin
+this.Active_dateField = value
+end
+endmethod
+endproperty
+
+private Address1Field, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address1, string
+method get
+proc
+begin
+mreturn this.Address1Field
+end
+endmethod
+method set
+proc
+begin
+this.Address1Field = value
+end
+endmethod
+endproperty
+
+private Address2Field, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address2, string
+method get
+proc
+begin
+mreturn this.Address2Field
+end
+endmethod
+method set
+proc
+begin
+this.Address2Field = value
+end
+endmethod
+endproperty
+
+private Address3Field, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address3, string
+method get
+proc
+begin
+mreturn this.Address3Field
+end
+endmethod
+method set
+proc
+begin
+this.Address3Field = value
+end
+endmethod
+endproperty
+
+private Address_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address_id, int
+method get
+proc
+begin
+mreturn this.Address_idField
+end
+endmethod
+method set
+proc
+begin
+this.Address_idField = value
+end
+endmethod
+endproperty
+
+private Address_typeField, spc2011.Address_type
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address_type, spc2011.Address_type
+method get
+proc
+begin
+mreturn this.Address_typeField
+end
+endmethod
+method set
+proc
+begin
+this.Address_typeField = value
+end
+endmethod
+endproperty
+
+private Billing_addressField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Billing_address, boolean
+method get
+proc
+begin
+mreturn this.Billing_addressField
+end
+endmethod
+method set
+proc
+begin
+this.Billing_addressField = value
+end
+endmethod
+endproperty
+
+private CityField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property City, string
+method get
+proc
+begin
+mreturn this.CityField
+end
+endmethod
+method set
+proc
+begin
+this.CityField = value
+end
+endmethod
+endproperty
+
+private CountryField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Country, string
+method get
+proc
+begin
+mreturn this.CountryField
+end
+endmethod
+method set
+proc
+begin
+this.CountryField = value
+end
+endmethod
+endproperty
+
+private Customer_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Customer_id, int
+method get
+proc
+begin
+mreturn this.Customer_idField
+end
+endmethod
+method set
+proc
+begin
+this.Customer_idField = value
+end
+endmethod
+endproperty
+
+private Mailing_addressField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Mailing_address, boolean
+method get
+proc
+begin
+mreturn this.Mailing_addressField
+end
+endmethod
+method set
+proc
+begin
+this.Mailing_addressField = value
+end
+endmethod
+endproperty
+
+private Main_addressField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Main_address, boolean
+method get
+proc
+begin
+mreturn this.Main_addressField
+end
+endmethod
+method set
+proc
+begin
+this.Main_addressField = value
+end
+endmethod
+endproperty
+
+private Postal_codeField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Postal_code, string
+method get
+proc
+begin
+mreturn this.Postal_codeField
+end
+endmethod
+method set
+proc
+begin
+this.Postal_codeField = value
+end
+endmethod
+endproperty
+
+private Replication_keyField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Replication_key, string
+method get
+proc
+begin
+mreturn this.Replication_keyField
+end
+endmethod
+method set
+proc
+begin
+this.Replication_keyField = value
+end
+endmethod
+endproperty
+
+private Satellite_officeField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Satellite_office, boolean
+method get
+proc
+begin
+mreturn this.Satellite_officeField
+end
+endmethod
+method set
+proc
+begin
+this.Satellite_officeField = value
+end
+endmethod
+endproperty
+
+private StateField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property State, string
+method get
+proc
+begin
+mreturn this.StateField
+end
+endmethod
+method set
+proc
+begin
+this.StateField = value
+end
+endmethod
+endproperty
+
+private ZipField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Zip, int
+method get
+proc
+begin
+mreturn this.ZipField
+end
+endmethod
+method set
+proc
+begin
+this.ZipField = value
+end
+endmethod
+endproperty
+
+private Zip_extendField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Zip_extend, int
+method get
+proc
+begin
+mreturn this.Zip_extendField
+end
+endmethod
+method set
+proc
+begin
+this.Zip_extendField = value
+end
+endmethod
+endproperty
+endclass
+
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.Runtime.Serialization"), ((string)"4.0.0.0"))}
+{System.Runtime.Serialization.DataContractAttribute(Name = ((string)"Address_type"), Namespace = ((string)"http://schemas.datacontract.org/2004/07/spc2011"))}
+public enum Address_type
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Business
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Home
+{System.Runtime.Serialization.EnumMemberAttribute()}
+Other
+endenum
+
+{System.Diagnostics.DebuggerStepThroughAttribute()}
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.Runtime.Serialization"), ((string)"4.0.0.0"))}
+{System.Runtime.Serialization.DataContractAttribute(Name = ((string)"Customer"), Namespace = ((string)"http://schemas.datacontract.org/2004/07/spc2011"))}
+public partial class Customer extends object implements System.Runtime.Serialization.IExtensibleDataObject
+
+private extensionDataField, @System.Runtime.Serialization.ExtensionDataObject
+
+public property ExtensionData, @System.Runtime.Serialization.ExtensionDataObject
+method get
+proc
+begin
+mreturn this.extensionDataField
+end
+endmethod
+method set
+proc
+begin
+this.extensionDataField = value
+end
+endmethod
+endproperty
+
+private Customer_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Customer_id, int
+method get
+proc
+begin
+mreturn this.Customer_idField
+end
+endmethod
+method set
+proc
+begin
+this.Customer_idField = value
+end
+endmethod
+endproperty
+
+private Date_createdField, System.DateTime
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Date_created, System.DateTime
+method get
+proc
+begin
+mreturn this.Date_createdField
+end
+endmethod
+method set
+proc
+begin
+this.Date_createdField = value
+end
+endmethod
+endproperty
+
+private Date_modifiedField, System.DateTime
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Date_modified, System.DateTime
+method get
+proc
+begin
+mreturn this.Date_modifiedField
+end
+endmethod
+method set
+proc
+begin
+this.Date_modifiedField = value
+end
+endmethod
+endproperty
+
+private NameField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Name, string
+method get
+proc
+begin
+mreturn this.NameField
+end
+endmethod
+method set
+proc
+begin
+this.NameField = value
+end
+endmethod
+endproperty
+
+private Noname_001Field, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Noname_001, string
+method get
+proc
+begin
+mreturn this.Noname_001Field
+end
+endmethod
+method set
+proc
+begin
+this.Noname_001Field = value
+end
+endmethod
+endproperty
+
+private Replication_keyField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Replication_key, string
+method get
+proc
+begin
+mreturn this.Replication_keyField
+end
+endmethod
+method set
+proc
+begin
+this.Replication_keyField = value
+end
+endmethod
+endproperty
+
+private StatusField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Status, string
+method get
+proc
+begin
+mreturn this.StatusField
+end
+endmethod
+method set
+proc
+begin
+this.StatusField = value
+end
+endmethod
+endproperty
+endclass
+
+{System.Diagnostics.DebuggerStepThroughAttribute()}
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.Runtime.Serialization"), ((string)"4.0.0.0"))}
+{System.Runtime.Serialization.DataContractAttribute(Name = ((string)"Contact"), Namespace = ((string)"http://schemas.datacontract.org/2004/07/spc2011"))}
+public partial class Contact extends object implements System.Runtime.Serialization.IExtensibleDataObject
+
+private extensionDataField, @System.Runtime.Serialization.ExtensionDataObject
+
+public property ExtensionData, @System.Runtime.Serialization.ExtensionDataObject
+method get
+proc
+begin
+mreturn this.extensionDataField
+end
+endmethod
+method set
+proc
+begin
+this.extensionDataField = value
+end
+endmethod
+endproperty
+
+private Address_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Address_id, int
+method get
+proc
+begin
+mreturn this.Address_idField
+end
+endmethod
+method set
+proc
+begin
+this.Address_idField = value
+end
+endmethod
+endproperty
+
+private Billing_contactField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Billing_contact, boolean
+method get
+proc
+begin
+mreturn this.Billing_contactField
+end
+endmethod
+method set
+proc
+begin
+this.Billing_contactField = value
+end
+endmethod
+endproperty
+
+private Contact_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Contact_id, int
+method get
+proc
+begin
+mreturn this.Contact_idField
+end
+endmethod
+method set
+proc
+begin
+this.Contact_idField = value
+end
+endmethod
+endproperty
+
+private Customer_idField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Customer_id, int
+method get
+proc
+begin
+mreturn this.Customer_idField
+end
+endmethod
+method set
+proc
+begin
+this.Customer_idField = value
+end
+endmethod
+endproperty
+
+private DepartmentField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Department, string
+method get
+proc
+begin
+mreturn this.DepartmentField
+end
+endmethod
+method set
+proc
+begin
+this.DepartmentField = value
+end
+endmethod
+endproperty
+
+private EmailField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Email, string
+method get
+proc
+begin
+mreturn this.EmailField
+end
+endmethod
+method set
+proc
+begin
+this.EmailField = value
+end
+endmethod
+endproperty
+
+private FaxField, long
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Fax, long
+method get
+proc
+begin
+mreturn this.FaxField
+end
+endmethod
+method set
+proc
+begin
+this.FaxField = value
+end
+endmethod
+endproperty
+
+private First_nameField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property First_name, string
+method get
+proc
+begin
+mreturn this.First_nameField
+end
+endmethod
+method set
+proc
+begin
+this.First_nameField = value
+end
+endmethod
+endproperty
+
+private Friendly_nameField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Friendly_name, string
+method get
+proc
+begin
+mreturn this.Friendly_nameField
+end
+endmethod
+method set
+proc
+begin
+this.Friendly_nameField = value
+end
+endmethod
+endproperty
+
+private General_contactField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property General_contact, boolean
+method get
+proc
+begin
+mreturn this.General_contactField
+end
+endmethod
+method set
+proc
+begin
+this.General_contactField = value
+end
+endmethod
+endproperty
+
+private Home_phoneField, long
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Home_phone, long
+method get
+proc
+begin
+mreturn this.Home_phoneField
+end
+endmethod
+method set
+proc
+begin
+this.Home_phoneField = value
+end
+endmethod
+endproperty
+
+private Last_nameField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Last_name, string
+method get
+proc
+begin
+mreturn this.Last_nameField
+end
+endmethod
+method set
+proc
+begin
+this.Last_nameField = value
+end
+endmethod
+endproperty
+
+private Management_contactField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Management_contact, boolean
+method get
+proc
+begin
+mreturn this.Management_contactField
+end
+endmethod
+method set
+proc
+begin
+this.Management_contactField = value
+end
+endmethod
+endproperty
+
+private Mobile_phoneField, long
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Mobile_phone, long
+method get
+proc
+begin
+mreturn this.Mobile_phoneField
+end
+endmethod
+method set
+proc
+begin
+this.Mobile_phoneField = value
+end
+endmethod
+endproperty
+
+private Noname_001Field, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Noname_001, string
+method get
+proc
+begin
+mreturn this.Noname_001Field
+end
+endmethod
+method set
+proc
+begin
+this.Noname_001Field = value
+end
+endmethod
+endproperty
+
+private Picture_fileField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Picture_file, string
+method get
+proc
+begin
+mreturn this.Picture_fileField
+end
+endmethod
+method set
+proc
+begin
+this.Picture_fileField = value
+end
+endmethod
+endproperty
+
+private Replication_keyField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Replication_key, string
+method get
+proc
+begin
+mreturn this.Replication_keyField
+end
+endmethod
+method set
+proc
+begin
+this.Replication_keyField = value
+end
+endmethod
+endproperty
+
+private Sales_contactField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Sales_contact, boolean
+method get
+proc
+begin
+mreturn this.Sales_contactField
+end
+endmethod
+method set
+proc
+begin
+this.Sales_contactField = value
+end
+endmethod
+endproperty
+
+private SalutationField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Salutation, string
+method get
+proc
+begin
+mreturn this.SalutationField
+end
+endmethod
+method set
+proc
+begin
+this.SalutationField = value
+end
+endmethod
+endproperty
+
+private Technical_contactField, boolean
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Technical_contact, boolean
+method get
+proc
+begin
+mreturn this.Technical_contactField
+end
+endmethod
+method set
+proc
+begin
+this.Technical_contactField = value
+end
+endmethod
+endproperty
+
+private TitleField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Title, string
+method get
+proc
+begin
+mreturn this.TitleField
+end
+endmethod
+method set
+proc
+begin
+this.TitleField = value
+end
+endmethod
+endproperty
+
+private Web_siteField, string
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Web_site, string
+method get
+proc
+begin
+mreturn this.Web_siteField
+end
+endmethod
+method set
+proc
+begin
+this.Web_siteField = value
+end
+endmethod
+endproperty
+
+private Work_extensionField, int
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Work_extension, int
+method get
+proc
+begin
+mreturn this.Work_extensionField
+end
+endmethod
+method set
+proc
+begin
+this.Work_extensionField = value
+end
+endmethod
+endproperty
+
+private Work_phoneField, long
+
+{System.Runtime.Serialization.DataMemberAttribute()}
+public property Work_phone, long
+method get
+proc
+begin
+mreturn this.Work_phoneField
+end
+endmethod
+method set
+proc
+begin
+this.Work_phoneField = value
+end
+endmethod
+endproperty
+endclass
+
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.ServiceModel"), ((string)"4.0.0.0"))}
+{System.ServiceModel.ServiceContractAttribute(ConfigurationName = ((string)"spc2011.SynergyServer"))}
+public interface SynergyServer
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetAddressForUpdate"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetAddressForUpdateResponse"))}
+method GetAddressForUpdate, spc2011.Method_status
+out Address, @spc2011.Address 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+AddressID, int 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetAllCustomers"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetAllCustomersResponse"))}
+{returntype: System.ServiceModel.MessageParameterAttribute(Name = ((string)"Customers"))}
+method GetAllCustomers, @System.Collections.Generic.List<spc2011.Customer>
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetContactForUpdate"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetContactForUpdateResponse"))}
+method GetContactForUpdate, spc2011.Method_status
+out Contact, @spc2011.Contact 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+ContactID, int 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetCustomerAddresses"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetCustomerAddressesResponse"))}
+{returntype: System.ServiceModel.MessageParameterAttribute(Name = ((string)"Addresses"))}
+method GetCustomerAddresses, @System.Collections.Generic.List<spc2011.Address>
+CustomerID, int 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetCustomerContacts"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetCustomerContactsResponse"))}
+{returntype: System.ServiceModel.MessageParameterAttribute(Name = ((string)"Contacts"))}
+method GetCustomerContacts, @System.Collections.Generic.List<spc2011.Contact>
+CustomerID, int 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/GetCustomerForUpdate"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/GetCustomerForUpdateResponse"))}
+method GetCustomerForUpdate, spc2011.Method_status
+out Customer, @spc2011.Customer 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/UpdateContact"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/UpdateContactResponse"))}
+method UpdateContact, spc2011.Method_status
+byref inout Contact, @spc2011.Contact 
+byref inout GRFA, [#]byte 
+out Message, string 
+endparams
+endmethod
+
+{System.ServiceModel.OperationContractAttribute(Action = ((string)"http://tempuri.org/SynergyServer/UpdateCustomer"), ReplyAction = ((string)"http://tempuri.org/SynergyServer/UpdateCustomerResponse"))}
+method UpdateCustomer, spc2011.Method_status
+byref inout Customer, @spc2011.Customer 
+byref inout GRFA, [#]byte 
+out Message, string 
+endparams
+endmethod
+endinterface
+
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.ServiceModel"), ((string)"4.0.0.0"))}
+public interface SynergyServerChannel extends spc2011.SynergyServer, System.ServiceModel.IClientChannel
+endinterface
+
+{System.Diagnostics.DebuggerStepThroughAttribute()}
+{System.CodeDom.Compiler.GeneratedCodeAttribute(((string)"System.ServiceModel"), ((string)"4.0.0.0"))}
+public partial class SynergyServerClient extends System.ServiceModel.ClientBase<spc2011.SynergyServer> implements spc2011.SynergyServer
+
+public method SynergyServerClient
+endparams
+proc
+begin
+end
+endmethod
+
+public method SynergyServerClient
+endpointConfigurationName, string 
+endparams
+parent(endpointConfigurationName)
+proc
+begin
+end
+endmethod
+
+public method SynergyServerClient
+endpointConfigurationName, string 
+remoteAddress, string 
+endparams
+parent(endpointConfigurationName, remoteAddress)
+proc
+begin
+end
+endmethod
+
+public method SynergyServerClient
+endpointConfigurationName, string 
+remoteAddress, @System.ServiceModel.EndpointAddress 
+endparams
+parent(endpointConfigurationName, remoteAddress)
+proc
+begin
+end
+endmethod
+
+public method SynergyServerClient
+binding, @System.ServiceModel.Channels.Binding 
+remoteAddress, @System.ServiceModel.EndpointAddress 
+endparams
+parent(binding, remoteAddress)
+proc
+begin
+end
+endmethod
+
+public method GetAddressForUpdate, spc2011.Method_status
+out Address, @spc2011.Address 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+AddressID, int 
+endparams
+proc
+begin
+mreturn parent.Channel.GetAddressForUpdate(Address, GRFA, Message, CustomerID, AddressID)
+end
+endmethod
+
+public method GetAllCustomers, @System.Collections.Generic.List<spc2011.Customer>
+endparams
+proc
+begin
+mreturn parent.Channel.GetAllCustomers()
+end
+endmethod
+
+public method GetContactForUpdate, spc2011.Method_status
+out Contact, @spc2011.Contact 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+ContactID, int 
+endparams
+proc
+begin
+mreturn parent.Channel.GetContactForUpdate(Contact, GRFA, Message, CustomerID, ContactID)
+end
+endmethod
+
+public method GetCustomerAddresses, @System.Collections.Generic.List<spc2011.Address>
+CustomerID, int 
+endparams
+proc
+begin
+mreturn parent.Channel.GetCustomerAddresses(CustomerID)
+end
+endmethod
+
+public method GetCustomerContacts, @System.Collections.Generic.List<spc2011.Contact>
+CustomerID, int 
+endparams
+proc
+begin
+mreturn parent.Channel.GetCustomerContacts(CustomerID)
+end
+endmethod
+
+public method GetCustomerForUpdate, spc2011.Method_status
+out Customer, @spc2011.Customer 
+out GRFA, [#]byte 
+out Message, string 
+CustomerID, int 
+endparams
+proc
+begin
+mreturn parent.Channel.GetCustomerForUpdate(Customer, GRFA, Message, CustomerID)
+end
+endmethod
+
+public method UpdateContact, spc2011.Method_status
+byref inout Contact, @spc2011.Contact 
+byref inout GRFA, [#]byte 
+out Message, string 
+endparams
+proc
+begin
+mreturn parent.Channel.UpdateContact(Contact, GRFA, Message)
+end
+endmethod
+
+public method UpdateCustomer, spc2011.Method_status
+byref inout Customer, @spc2011.Customer 
+byref inout GRFA, [#]byte 
+out Message, string 
+endparams
+proc
+begin
+mreturn parent.Channel.UpdateCustomer(Customer, GRFA, Message)
+end
+endmethod
+endclass
+endnamespace
