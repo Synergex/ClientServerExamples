@@ -1,0 +1,7 @@
+DBLNET> %DBL-E-PRTLOAD, Unable to load prototype InteropAssembly.dbp : Unhandled initial value type Boolean for field spc2011.Contact.m_changed
+%DBL-E-PRTLOAD, Unable to load prototype InteropAssembly.dbp : Unhandled initial value type Boolean for field spc2011.Customer.m_changed
+%DBL-E-NOASM, No assembly file created
+
+Errors:         2
+DBLNET> 
+
